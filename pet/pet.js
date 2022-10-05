@@ -70,6 +70,10 @@ function displayError() {
 
 function displayPet() {
     // > Part B: display the pet info
+    petName.textContent = pet.name;
+    petBio.textContent = pet.bio;
+    petImage.src = pet.image_url;
+    petImage.alt = `${pet.name} image`;
 }
 
 function displayComments() {
